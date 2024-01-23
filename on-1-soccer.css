@@ -1,0 +1,198 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  color: var(--dl-color-gray-white);
+  border: none;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #6528b3;
+}
+
+.on1-soccer-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/kenny-1500w.jpg");
+}
+.on1-soccer-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.on1-soccer-navlink {
+  display: contents;
+}
+.on1-soccer-logo {
+  text-decoration: none;
+}
+.on1-soccer-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.on1-soccer-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.on1-soccer-navlink1 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.on1-soccer-navlink2 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.on1-soccer-navlink3 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.on1-soccer-navlink4 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.on1-soccer-link {
+  text-decoration: none;
+  background-color: rgb(153, 79, 247);
+}
+.on1-soccer-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.on1-soccer-burger-menu1 {
+  width: 24px;
+  height: 24px;
+}
+.on1-soccer-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.on1-soccer-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.on1-soccer-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.on1-soccer-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.on1-soccer-icon03 {
+  width: 24px;
+  height: 24px;
+}
+.on1-soccer-right-side1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.on1-soccer-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.on1-soccer-text {
+  margin-bottom: 8px;
+}
+.on1-soccer-text1 {
+  margin-bottom: 8px;
+}
+.on1-soccer-text2 {
+  margin-bottom: 8px;
+}
+.on1-soccer-follow-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.on1-soccer-text4 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.on1-soccer-icons-container {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.on1-soccer-link1 {
+  display: contents;
+}
+.on1-soccer-icon05 {
+  width: 24px;
+  height: 24px;
+}
+.on1-soccer-link2 {
+  display: contents;
+}
+.on1-soccer-icon07 {
+  width: 24px;
+  height: 24px;
+}
+.on1-soccer-link3 {
+  display: contents;
+}
+.on1-soccer-icon09 {
+  width: 24px;
+  height: 24px;
+}
+.on1-soccer-container2 {
+  display: contents;
+}
+.on1-soccer-text5 {
+  align-self: center;
+  margin-top: 1.47em;
+  background-color: #D9D9D9;
+}
+@media(max-width: 767px) {
+  .on1-soccer-right-side {
+    display: none;
+  }
+  .on1-soccer-burger-menu {
+    display: flex;
+  }
+}

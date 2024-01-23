@@ -1,0 +1,15 @@
+.assorted-proxies-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.assorted-proxies-container1 {
+  width: auto;
+  height: auto;
+}
+.assorted-proxies-container2 {
+  display: contents;
+}

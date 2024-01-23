@@ -1,0 +1,236 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  color: var(--dl-color-gray-white);
+  border: none;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #6528b3;
+}
+
+.github-guide-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.github-guide-top-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/kenny-1500w.jpg");
+}
+.github-guide-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-guide-navlink {
+  display: contents;
+}
+.github-guide-logo {
+  text-decoration: none;
+}
+.github-guide-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-guide-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-guide-navlink1 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.github-guide-navlink2 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.github-guide-navlink3 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.github-guide-navlink4 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.github-guide-link {
+  text-decoration: none;
+  background-color: rgb(153, 79, 247);
+}
+.github-guide-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-guide-burger-menu1 {
+  width: 24px;
+  height: 24px;
+}
+.github-guide-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.github-guide-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.github-guide-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-guide-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.github-guide-icon03 {
+  width: 24px;
+  height: 24px;
+}
+.github-guide-right-side1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.github-guide-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.github-guide-text {
+  margin-bottom: 8px;
+}
+.github-guide-text01 {
+  margin-bottom: 8px;
+}
+.github-guide-text02 {
+  margin-bottom: 8px;
+}
+.github-guide-follow-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.github-guide-text04 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.github-guide-icons-container {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-guide-link1 {
+  display: contents;
+}
+.github-guide-icon05 {
+  width: 24px;
+  height: 24px;
+}
+.github-guide-link2 {
+  display: contents;
+}
+.github-guide-icon07 {
+  width: 24px;
+  height: 24px;
+}
+.github-guide-link3 {
+  display: contents;
+}
+.github-guide-icon09 {
+  width: 24px;
+  height: 24px;
+}
+.github-guide-text05 {
+  font-size: 3rem;
+  align-self: center;
+}
+.github-guide-feature-card {
+  width: 100%;
+  height: 274px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.github-guide-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.github-guide-text06 {
+  align-self: center;
+  text-align: center;
+}
+@media(max-width: 767px) {
+  .github-guide-right-side {
+    display: none;
+  }
+  .github-guide-burger-menu {
+    display: flex;
+  }
+  .github-guide-text05 {
+    text-align: center;
+  }
+  .github-guide-feature-card {
+    flex-direction: row;
+  }
+  .github-guide-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .github-guide-container1 {
+    flex-direction: column;
+  }
+}
